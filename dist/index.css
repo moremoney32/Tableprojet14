@@ -1,0 +1,157 @@
+._5kjus {
+     width: 1000px;
+     margin: auto;
+     padding-top: 50px;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+}
+._3SkCW {
+     text-align: center;
+}
+._2IMGo {
+     display: flex;
+     justify-content: space-between;
+}
+._h-yQn {
+     display: flex;
+     gap: 3px;
+}
+._2mgYy {
+     display: flex;
+     gap: 3px;
+}
+
+table {
+     padding: 5px;
+     border: 2px solid #79526f;
+     line-height: 35px;
+     border-collapse: collapse;
+     width: 100%;
+}
+
+td {
+     background: blanchedalmond;
+     border-collapse: collapse;
+     border: 2px solid skyblue;
+     color: black;
+     height: 100px;
+     font-size: 15px;
+     padding: 3px;
+     width: 100px;
+}
+
+th {
+     background: blue;
+     color: white;
+     height: 70px;
+     font-size: 15px;
+     padding: 5px;
+     cursor: pointer;
+     width: 100px;
+     border-right: 1px solid white;
+}
+tr {
+     text-align: center;
+     display: flex;
+     width: 100% !important;
+
+     justify-content: space-between;
+}
+
+._3Sqri {
+     display: flex;
+     justify-content: space-between;
+}
+._3BQid {
+     display: flex;
+     gap: 5px;
+}
+._O_Cf7 {
+     display: flex;
+     gap: 8px;
+     align-items: center;
+}
+._60xRt {
+     padding: 10px;
+     background: darkgray;
+     text-align: center;
+     cursor: pointer;
+}
+._pRN41 {
+     cursor: pointer;
+}
+._3FSOK {
+     margin: auto;
+}
+._1cKNS {
+     display: flex;
+     flex-direction: column;
+}
+.__gJkg {
+     display: flex;
+     justify-content: space-between;
+     background: darkgray;
+}
+._2vdTt {
+     position: absolute;
+     left: 35%;
+     top: 40%;
+     color: red;
+     font-size: 40px;
+}
+._1ZEf9 {
+     color: red;
+}
+._oIkOa {
+     transform: translate3d(50px, 20px, 0);
+}
+
+/***responsive components table mobile*****/
+@media all and (min-width: 0px) and (max-width: 767px) {
+     ._5kjus {
+          width: auto;
+          margin: auto;
+          padding-top: 50px;
+          display: flex;
+          gap: 30px;
+     }
+     ._3SkCW {
+          position: absolute;
+          top: -15px;
+          left: 70px;
+     }
+     ._2IMGo {
+          position: absolute;
+          display: flex;
+          gap: 70px !important;
+          padding-top: 50px;
+     }
+     input {
+          width: 100px;
+     }
+     td {
+          height: 70px;
+     }
+     table,
+     thead,
+     tbody,
+     tr,
+     th,
+     td {
+          display: block;
+     }
+     table {
+          display: flex;
+          margin-top: 100px;
+     }
+     ._3Sqri {
+          display: flex;
+          position: absolute;
+          bottom: 0px;
+     }
+     ._3FSOK {
+          position: absolute;
+          bottom: 0px;
+     }
+}
